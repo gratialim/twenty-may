@@ -21,28 +21,15 @@ I just want to say (atau bahkan mengisyarakatkan bapak) kalo sebenernya banyak t
 Tapi saya mau bilang, untuk terus menjadi diri sendiri tanpa melihat siapa yang membenci anda. 
 Teruslah melakukan yang terbaik ya pak! Sindiran mereka tidak akan pernah membuat perspektif saya terhadap bapak berubah. 
 Kalo saya sudah bilang bapak itu orang yang keren, empatis, penyayang, kalem, dan yang paling berdampak di kehidupan saya, ya pernyataan itu tidak akan berubah.
-Sejak pertama kali masuk SMA, hanya engkau saya yang tidak pernah menghakimi fakta bahwa saya ini anak ADHD dan disleksia, 
-bahkan bapak mau sabar mengajari saya dengan gaya mengajar visual (pake bolpen yang waktu itu) atau bahkan senyum ke saya duluan dan mengingat detail terkecil tentang saya.
+Sejak pertama kali masuk SMA, cuman bapak doang yang tidak pernah menghakimi saya,
+bahkan bapak mau sabar mengajari saya dan mengingat detail terkecil tentang saya.
 Jujur, tidak ada orang yang pernah melakukan itu selain bapak, 
-saya benar-benar apresiasi kerja keras bapak dalam menghadapi tantangan belajar-mengajar di sekolah ini, 
-saya tau banyak anak yang bandel di pelajaran bapak, atau bahkan benci presensi bapak. 
-Baik yang cewe maupun cowo, tidak memandang jenis kelamin, mereka semuanya gitu. 
+saya benar-benar apresiasi kerja keras bapak dalam menghadapi tantangan belajar-mengajar di sekolah ini.
 Tapi yang bapak harus peduli dan ingat adalah, itutuh diluar kendali bapak.
 Kendali bapak hanyalah mengajar mereka dengan adil dan jujur apa adanya.
 Saya kasih big respect buat bapak karena perjuangan bapak dalam mengajari anak-anak/murid-murid, 
 termasuk saya (apalagi saya yang ABK gitu kan ya) itu tuh sudah terbayar dengan baik. 
-Dan saya ingin membayar perjuangan bapak balik dengan cara menolong bapak, 
-menyapa kepada bapak, 
-melakukan hal-hal yang mungkin menurut orang-orang itu tuh kayak "ih kamu kok rela ngebantuin beliau?" 
-karena beliau memang pantas diperlakukan dengan baik, 
-karena beliau memperlakukan saya seperti muridnya yang ia kasihi, sayangi, dan paling peduli dengannya. 
-Walaupun anak itu memiliki kekurangan yang jauh lebih parah daripada anak biasanya, 
-apakah kasih itu akan berubah hanya karena anaknya memiliki satu kelemahan yang ia tidak bisa kontrol? Oh tentu tidak. 
-Pengasuh/pengajar yang benar itu justru menganggap bahwa kelemahannya itu tuh superpower terpendam yang dimiliki anaknya. 
-Orang yang baik akan selalu menganggap bahwa setiap kelemahan memiliki kekuatan yang tersembunyi, 
-jauh lebih berpengaruh daripada kelihatannya. Suatu saat nanti saya sukses dan terkenal, 
-saya tidak akan pernah lupa mencantumkan nama "Ruus Sofyan" sebagai orang, sebagai mentor, sebagai pengasuh yang sudah berjasa. 
-Kalo bapak bisa lihat file ini, tolong dibaca ya wkwkwkwk..genuine note nih. Dari Stephh untuk Ruuss.*/
+Kalo bapak bisa lihat file ini, tolong dibaca ya wkwkwkwk..*/
 
 function jalankanHitungMundur() {
   setInterval(() => {
@@ -53,7 +40,7 @@ function jalankanHitungMundur() {
     let waktuTarget = new Date(`May 20, ${tahunSekarang} 00:00:00`).getTime();
     const waktuSekarang = sekarang.getTime();
 
-    /*JIKA tanggal 20 Mei tahun ini sudah lewat, otomatis target ganti ke 20 Mei tahun depan*/
+    /*Jika tanggal 20 Mei tahun ini sudah lewat, otomatis target ganti ke 20 Mei tahun depan*/
     if (waktuTarget - waktuSekarang < 0) {
       waktuTarget = new Date(`May 20, ${tahunSekarang + 1} 00:00:00`).getTime();
     }
